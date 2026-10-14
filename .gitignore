@@ -1,5 +1,5 @@
 node_modules/
 dist/
-.openai/.local/
+.openai/
 *.tgz
 .DS_Store

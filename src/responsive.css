@@ -1,0 +1,88 @@
+/* Layout adjustments verified at the end of the design pass. */
+@media(max-width:1100px){
+  .site-header{padding-left:36px;padding-right:36px;gap:24px}
+  .brand{font-size:26px;gap:12px}
+  .desktop-nav{font-size:11px;gap:18px}
+  .nav-contact{font-size:11px;gap:13px}
+  .contact-body{grid-template-columns:minmax(0,1fr) minmax(260px,.95fr);gap:36px}
+  .contact-content h2{font-size:70px}
+  .correspondence-parallax{max-width:350px}
+}
+@media(max-width:760px){
+  .site-header{padding:18px 24px;min-height:86px;gap:12px}
+  .brand{font-size:clamp(21px,5.8vw,25px);gap:10px}
+  .brand-monogram{width:29px;height:35px;font-size:10px;flex-shrink:0}
+  .brand small{font-size:5.5px;letter-spacing:.6px;white-space:nowrap}
+  .nav-contact{font-size:10px;gap:9px;min-height:40px;padding:8px 3px}
+  .nav-contact span{font-size:6px}
+  .menu-toggle{font-size:9px;min-height:40px;min-width:30px;padding:8px 0}
+  .hero h1{font-size:clamp(46px,13.4vw,78px);letter-spacing:-1.4px}
+  .hero-copy{padding-top:16px}
+  .hero-description{font-size:12px;max-width:380px}
+  .hero-footnote{font-size:6px;letter-spacing:.2px}
+  .instrument-meta{font-size:7px;padding:0 3px}
+  .technical-note{font-size:6px;letter-spacing:.3px}
+  .note-left{left:22px;bottom:22px}
+  .note-right{right:22px;top:23px}
+  .waveform-selector{gap:12px;font-size:6px;flex-wrap:wrap;row-gap:10px}
+  .waveform-selector legend{font-size:5px;margin-right:0}
+  .waveform-selector .instrument-hint{font-size:5px}
+  .hero-bottom{font-size:5.5px;letter-spacing:.4px}
+  .about-grid{gap:36px}
+  .notebook-parallax{max-width:410px;align-self:center}
+  .notebook-caption{font-size:7px;line-height:1.8}
+  .about-signature{gap:12px;flex-wrap:wrap}
+  .about-signature>span:first-child{font-size:10px}
+  .about-signature>span:last-child{font-size:6px}
+  .skills{gap:15px;row-gap:12px}
+  .skills span{font-size:8px}
+  .project-info p{max-width:none}
+  .project-title{font-size:32px}
+  .project-tags{row-gap:7px}
+  .section-heading{gap:16px;padding:33px 0}
+  .section-aside{font-size:8px;max-width:145px}
+  .off-duty .section-heading{align-items:flex-start;flex-wrap:wrap}
+  .off-duty .section-aside{max-width:none;text-align:left}
+  .hobby-card h3{font-size:30px}
+  .contact{padding-top:47px;padding-bottom:55px}
+  .contact-body{grid-template-columns:minmax(0,1fr);gap:39px;padding:38px 0 10px}
+  .contact-content h2{font-size:clamp(62px,14vw,82px)}
+  .contact-content>p{font-size:12px;max-width:340px}
+  .contact-email{font-size:clamp(20px,6.2vw,27px);letter-spacing:-.7px;max-width:100%;overflow-wrap:anywhere}
+  .contact-email-block{margin-top:27px}
+  .contact-actions{gap:25px;flex-wrap:wrap}
+  .contact-compose{min-height:46px;padding:14px 21px}
+  .copy-email{font-size:9px;min-height:40px;display:inline-flex;align-items:center}
+  .correspondence-parallax{max-width:360px;margin:19px auto 0}
+  .correspondence-card{height:315px}
+  .letter-paper{left:16px;right:16px;padding:23px;min-height:247px}
+  .letter-paper strong{font-size:32px}
+  .letter-head{font-size:5px;letter-spacing:.4px}
+  .letter-address{font-size:9px}
+  .letter-caption{font-size:7px;margin-top:23px}
+  .contact-note{font-size:5px;line-height:1.8;letter-spacing:.5px}
+  .site-footer{row-gap:15px}
+  .demo-notice{font-size:5px;line-height:1.9}
+}
+@media(max-width:380px){
+  .site-header{padding-left:20px;padding-right:20px;gap:10px}
+  .brand{font-size:21px;gap:8px}
+  .brand-monogram{width:26px;height:33px;font-size:9px}
+  .brand small{font-size:5px;letter-spacing:.4px}
+  .nav-contact{font-size:9px;gap:7px}
+  .hero h1{font-size:clamp(45px,13.4vw,51px)}
+  .hero-actions{gap:22px;flex-wrap:wrap}
+  .hero-footnote{gap:8px;font-size:5px}
+  .instrument-controls label{gap:5px;font-size:6px}
+  .instrument-controls input{width:69px}
+  .instrument-controls output{font-size:7px;min-width:35px}
+  .power-button{font-size:6px;gap:5px}
+  .reset-instrument{font-size:6px}
+  .waveform-selector{gap:9px}
+  .waveform-selector .instrument-hint{flex-basis:100%;margin-left:0;text-align:right}
+  .section-kicker>span:last-child{font-size:5px;letter-spacing:.4px}
+  .contact-content h2{font-size:62px}
+  .letter-paper{left:12px;right:12px;padding:20px}
+  .letter-paper strong{font-size:31px}
+  .mail-stamp{right:20px;bottom:20px}
+}

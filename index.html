@@ -4,11 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#f1ecdf" />
-    <meta name="description" content="The Signal Room — a vintage-inspired electronics engineer portfolio. An exploration of thoughtful circuits, curious experiments, and the person behind them." />
+    <meta name="description" content="The Signal Room — a vintage-inspired electronics engineer portfolio. Circuits, firmware, and working notes, with an interactive vintage oscilloscope." />
+    <link rel="stylesheet" href="/loader.css" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <title>The Signal Room — an engineer's portfolio</title>
   </head>
-  <body>
+  <body class="is-loading">
+    <div id="page-loader" class="page-loader" role="status" aria-label="Preparing the portfolio">
+      <div class="loader-panel"></div><div class="loader-panel"></div>
+      <div class="loader-calibration">
+        <div class="loader-cap"><span>THE SIGNAL ROOM</span><span>REV. 02</span></div>
+        <div class="loader-wordmark">Opening the notebook.</div>
+        <div class="loader-trace" aria-hidden="true"><svg viewBox="0 0 400 76"><path pathLength="1" d="M0 38H40Q48 38 54 20T68 38T82 56T96 38T110 20T124 38T138 56T152 38T166 20T180 38T194 56T208 38T222 20T236 38T250 56T264 38H400"/></svg></div>
+        <div class="loader-status"><span class="loader-stage">Preparing the notebook</span><span class="loader-count">00 / 03</span></div>
+        <div class="loader-meter" aria-hidden="true"></div>
+        <div class="loader-foot"><span>TYPE / DISPLAY / PAPER</span><span>AM–01</span></div>
+        <noscript>Enable JavaScript to open the interactive portfolio.</noscript>
+      </div>
+    </div>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
   </body>
