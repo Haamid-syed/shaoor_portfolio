@@ -1,0 +1,9 @@
+{
+  "name": "the-signal-room",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": { "dev": "vite --host 127.0.0.1", "build": "vite build", "preview": "vite preview --host 127.0.0.1" },
+  "dependencies": { "@fontsource/cormorant-garamond": "^5.2.8", "@fontsource/manrope": "^5.2.7", "@fontsource/ibm-plex-mono": "^5.2.7", "gsap": "^3.13.0", "three": "^0.180.0" },
+  "devDependencies": { "vite": "^7.1.0" }
+}
